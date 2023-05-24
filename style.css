@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    background: #d4d9e5;
+}
+
+.container{
+    max-width: 700px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+label{
+    padding-bottom: .2rem;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: rgb(202, 202, 202) !important;
+}
